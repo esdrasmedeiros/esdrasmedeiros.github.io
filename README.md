@@ -22,7 +22,7 @@ Open <http://localhost:8000>.
 
 Publication records are present in the HTML. JavaScript initially displays the four records marked `featured`; visitors can expand the list or filter by research area. Without JavaScript, all publications remain visible. The illustration updates only on interaction; it does not animate automatically.
 
-Publication entries with an image use `has-thumbnail`, independently of the `featured` selection. All publication thumbnails from the supplied archive are included as optimized WebP images in `assets/figures/`, keeping the original figure-to-paper associations. The animated polyhedron uses a still frame for its thumbnail.
+Publication entries with an image use `has-thumbnail`, independently of the `featured` selection. Publication thumbnails from the supplied archive are included in `assets/figures/`, keeping the original figure-to-paper associations. Static figures use optimized WebP images; the Counterexamples paper retains its original animated GIF, including all frames and timing.
 
 ## Content sources
 
