@@ -22,6 +22,8 @@ Open <http://localhost:8000>.
 
 Publication records are present in the HTML. JavaScript initially displays the four records marked `featured`; visitors can expand the list or filter by research area. Without JavaScript, all publications remain visible. The illustration updates only on interaction; it does not animate automatically.
 
+Publication entries with an image use `has-thumbnail`, independently of the `featured` selection. All publication thumbnails from the supplied archive are included as optimized WebP images in `assets/figures/`, keeping the original figure-to-paper associations. The animated polyhedron uses a still frame for its thumbnail.
+
 ## Content sources
 
 Research PDFs, software, figures, videos, TOPs documentation, and selected teaching materials were imported from the supplied `../Webpage` archive. The portrait was removed. Existing biography and current research information were retained from the original homepage.

@@ -508,7 +508,7 @@ p {
 .publication-links a:hover {
   border-color:var(--ink);
 }
-.publication:not(.featured) {
+.publication:not(.has-thumbnail) {
   grid-template-columns:55px 1fr;
   padding-left:139px;
 }
@@ -863,7 +863,7 @@ p {
   .publication {
     gap:18px;
   }
-  .publication:not(.featured) {
+  .publication:not(.has-thumbnail) {
     padding-left:133px;
   }
 }
@@ -1032,15 +1032,15 @@ p {
   .publication .authors {
     font-size:10px;
   }
-  .publication:not(.featured) {
+  .publication:not(.has-thumbnail) {
     padding-left:0;
     grid-template-columns:65px 1fr;
   }
-  .publication:not(.featured) .publication-year {
+  .publication:not(.has-thumbnail) .publication-year {
     grid-column:1;
     grid-row:1;
   }
-  .publication:not(.featured) .publication-content {
+  .publication:not(.has-thumbnail) .publication-content {
     grid-row:1;
   }
   .publication-links {
