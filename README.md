@@ -24,6 +24,8 @@ Publication records are present in the HTML. JavaScript initially displays the f
 
 Publication entries with an image use `has-thumbnail`, independently of the `featured` selection. Publication thumbnails from the supplied archive are included in `assets/figures/`, keeping the original figure-to-paper associations. Static figures use optimized WebP images; the Counterexamples paper retains its original animated GIF, including all frames and timing.
 
+Publication rows use fixed grid areas for the thumbnail, year, and details, so entries with and without figures remain aligned. Stylesheet URLs include a content version to prevent older cached layout rules from being used with new markup; update that version in all five page headers when changing `assets/style.css`.
+
 ## Content sources
 
 Research PDFs, software, figures, videos, TOPs documentation, and selected teaching materials were imported from the supplied `../Webpage` archive. The portrait was removed. Existing biography and current research information were retained from the original homepage.
